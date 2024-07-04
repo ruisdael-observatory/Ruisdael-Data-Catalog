@@ -48,7 +48,6 @@ Classes:
     * mandatory: [name](http://xmlns.com/foaf/0.1/name)
     * mandatory: [type](http://purl.org/dc/terms/type)  	The nature of the agent. - **Use: CV**   
 *  [Catalogue](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Catalogue) 
-    * 
 *  [Dataset](https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Dataset) |
     * mandatory: [description](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_description)
     * mandatory: [title](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_title)
@@ -89,3 +88,34 @@ See https://semiceu.github.io/DCAT-AP/releases/3.0.0/#controlled-vocabularies-to
 * 👎   does not differentiate between classes and properties (that's not how RDF based schemas or SMW(wiki) works)
   
 See DataCite Mandatory Properties[](https://datacite-metadata-schema.readthedocs.io/en/4.5/properties/overview/#table-1-datacite-mandatory-properties) and compare to DCAT-AP classes + properties
+
+# Data Catalog Schema
+Andre Castro, 2024.07.04
+
+## DCAT-AP
+
+Based on DCAT-AP shackle shapes: https://github.com/SEMICeu/DCAT-AP/blob/master/releases/2.1.1/dcat-ap_2.1.1_shacl_shapes_recommended.ttl
+
+```
+NodeShape node=:Dataset_Shape
+  T/Class [?x rdf:type dcat:Dataset]
+  PropertyShape dcat:contactPoint
+    minCount[1]
+  PropertyShape dct:temporal
+    minCount[1]
+  PropertyShape dcat:distribution
+    minCount[1]
+  PropertyShape dcat:theme
+    minCount[1]
+  PropertyShape dcat:keyword
+    minCount[1]
+  PropertyShape dct:publisher
+    minCount[1]
+  PropertyShape dct:spatial
+    minCount[1]
+```
+
+
+## Using Shape Contraints in SMW
+
+https://www.semantic-mediawiki.org/wiki/Help:Constraint_schema#scite-ref-2d1f855e4d966dce45fff74440597c93-1-a
