@@ -13,8 +13,8 @@ Implemented structures:
 # PoC timeline
 Add items as milestones to https://github.com/ruisdael-observatory/Ruisdael-Data-Catalog/milestones
 
-* finalized catalog structures - date: 2024.07.18 
-* invitation of early users - 
+* finalized catalog structures [milestone/2](https://github.com/ruisdael-observatory/Ruisdael-Data-Catalog/milestone/2) - date: 2024.07.18 
+* invitation of early users - [milestone/3](https://github.com/ruisdael-observatory/Ruisdael-Data-Catalog/milestone/3)
 * PoC presentation - [milestone/1](https://github.com/ruisdael-observatory/Ruisdael-Data-Catalog/milestone/1)
 
 # PoC (potential) collaborators AKA early adopters
