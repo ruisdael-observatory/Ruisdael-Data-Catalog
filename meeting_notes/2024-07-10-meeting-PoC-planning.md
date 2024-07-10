@@ -36,9 +36,14 @@ Potential collaborators:
 * Bert Scheeren (RUG) - ICOS datasets, RUG private datasets
 * Mariska de Koning (KNMI)
 * Mahaut Sourzac (TUD) + C.Unal + A.Castro - cloud radar, MWR (private and public) datasets
-* ...?
+* Ulli (RUG)
 
-# September Meeting
+# End of August Meeting
+- goal: test run for presentation
+- participants: Andre, Caroline, Bert, (optional: Marc, Mariska)
+- date: 29 August 11:00 
+
+# September PoC Presentation Meeting
 
 Goals for Data Catalog
 * dataset from dataset from all different data repositories
