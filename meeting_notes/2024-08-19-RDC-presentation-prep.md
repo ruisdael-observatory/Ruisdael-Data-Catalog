@@ -1,4 +1,4 @@
-# RDP preparation
+# RDP Presentation Preparation
 
 ## increase the number of datasets
 start thinking of how we can increase the number of datasets in the catalog (Bert will be needs to do his part. I can also try to encourage Marc to include his datasets)
