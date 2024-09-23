@@ -39,4 +39,10 @@ suggestion: ask TUD DCC to organize workshop around working to github issues
 * future short workshops  introducing new users to the wiki catalog
 
 
+# Final thoughts
 
+we have a proposal (proof-of-concept) for a data catalog. But if no partner takes the responsibility to maintain it, there won't be a data catalog** 
+
+Data is the most important key deliverable for Ruisdael
+
+Data dissemination with DOIs is necessary
