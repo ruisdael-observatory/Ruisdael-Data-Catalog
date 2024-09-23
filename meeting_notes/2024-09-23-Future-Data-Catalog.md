@@ -30,6 +30,13 @@ suggestion: ask TUD DCC to organize workshop around working to github issues
 
 # Reaching the PIs involved?
 
+# PoC development
+* development hours was around 8 days full days from Andre (TUD)
+
+# Catalog future maintanance 
+* future maintanance (ie. creating accounts, server maintainance) will be not very taxing
+* future improvements can be done at a slow pace
+* future short workshops  introducing new users to the wiki catalog
 
 
 
