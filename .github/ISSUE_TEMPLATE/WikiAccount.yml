@@ -55,6 +55,7 @@ body:
   - type: markdown
     attributes:
       value: |
+        ----
         Your request will be answered soon.
         You will be notified once the account is created.
         Once you have your account, navigate to [Special:UserLogin](https://ruisdael-catalog.citg.tudelft.nl/index.php?title=Special:UserLogin) and change the default password in [Special:Preferences](https://ruisdael-catalog.citg.tudelft.nl/index.php?title=Special:Preferences)
