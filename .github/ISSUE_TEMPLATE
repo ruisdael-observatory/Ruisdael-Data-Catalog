@@ -1,0 +1,62 @@
+name: Wiki Account
+description: Request user account for Ruisdael Data Catalog wiki
+title: "[New Account]: "
+labels: ["wiki wiki"]
+projects: ["ruisdael-observatory/1"]
+assignees:
+  - AMKoning
+  - mschleiss
+  - BertScheeren
+  - Cvannoord
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # User account request for Ruisdael Data Catalog wiki
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: given-name family-name 
+      placeholder: ie. Christine Unal
+    validations:
+      required: true        
+  - type: input
+    id: contact
+    attributes:
+      label: Email address
+      description: Email address
+      placeholder: ie. email@example.com
+    validations:
+      required: true
+  - type: dropdown
+    id: organization
+    attributes:
+      label: Organization
+      description: Affiliation
+      options:
+        - KNMI
+        - RIVM
+        - TNO
+        - TU Delft
+        - University of Groningen
+        - Utrecht University
+        - VU Amsterdam
+        - Wageningen University
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: role
+    attributes:
+      label: Role
+      description: Role 
+      placeholder: ie. researcher, data manager, coordinator, etc
+  - type: markdown
+    attributes:
+      value: |
+        Your request will be answered soon.
+        You will be notified once the account is created.
+        Once you have your account, navigate to [Special:UserLogin](https://ruisdael-catalog.citg.tudelft.nl/index.php?title=Special:UserLogin) and change the default password in [Special:Preferences](https://ruisdael-catalog.citg.tudelft.nl/index.php?title=Special:Preferences)
+        Consult [Help:Catalog_editing](https://ruisdael-catalog.citg.tudelft.nl/index.php?title=Help:Catalog_editing) for information on how to edit and add content to the data catalog.
+
